@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-  int arr[] = {2, 8, 4, 1}, n = sizeof(arr) / sizeof(arr[0]), x;
+  int arr[] = {2, 8, 4, 1};
+  int n = sizeof(arr) / sizeof(arr[0]);
+  int x;
 
   if (n <= 1) {
     return 0;
